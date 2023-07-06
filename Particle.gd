@@ -4,7 +4,6 @@ var velocity = Vector2(50,0)
 
 var myTarget = null
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
 	if is_instance_valid(myTarget):
 		var target_pos = myTarget.position
